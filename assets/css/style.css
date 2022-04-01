@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Comfortaa:wght@300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+body
+{
+    font-family: 'Abel', sans-serif;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+h2
+{
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 50px;
+    margin: 70px 0 50px 0;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+a:hover
+{
+    color: black;
+}
+ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+img
+{
+    width: 100%;
+    height: 100%;
+}
+.default-container
+{
+    max-width: 1400px;
+    margin: auto;
+}
+header
+{
+    background-color: rgba(255, 247, 225, 1);
+    border-bottom: solid 13px #8B7169;
+}
+header .header-nav
+{
+    display: flex;
+    height: 160px;
+}
+.header-elements ul
+{
+ display: flex;
+ align-items: center;
+}
+.header-elements ul>li
+{
+ margin: 0 0 0 18px;
+}
+.header-elements ul:nth-child(2)>li
+{
+ margin: 0 30px 0 70px;
+}
+.header-elements ul:nth-child(3)>li
+{
+ margin: 0 30px 0 30px;
+}
+.header-elements ul>li>a
+{
+ font-weight: 500;
+ font-size: 20px;
+}
+.header-elements
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+main
+{
+    height: 230vh;
+}
+.btn button
+{
+    margin-top: 80px;
+    border: 1px solid #C9C9C9;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 440px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    background-color: #8B7169;
+}
+.btn button:last-of-type
+{
+    background: rgba(139, 113, 105, 0.5);
+    margin-left: 60px;
+}
+.grid-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 5px;
+    text-align: center;
+    justify-items: center;
+
+
+}
+.grid-container div:first-of-type
+{
+    background-color:rgba(139, 113, 105, 0.5);
+    color: white;
+}
+.elements-grid
+{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(149, 149, 149, 0.25);
+    border-radius: 20px;  
+    width: 150px;
+    height: 150px;
+    align-items: end;
+}
+.elements-grid>p
+{
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;   
+}
+.elements-grid>img
+{
+    margin-top: 20px;
+    width: 82px;
+    height: 77px;
+}
+hr
+{
+    margin-top: 130px;
+    width: 100%;
+    height: 1px;
+   border-bottom: 1px solid #B3B3B3 ;
+}
+main>section:nth-child(3)>p
+{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    width: 1000px;
+    margin-bottom: 25px;
+}
+main>section:nth-child(3)>img
+{
+    margin-top: 55px;
+}
+main>section:nth-child(4)>h2
+{
+    margin-top: 0;
+    margin-bottom: 56px;
+}
+.image-ask
+{
+    float: left;
+}
+.image-ask img
+{
+    width: 799px;
+    height: 636px;
+}
+.ask-quew
+{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+.ask-quew>.ask-quew-elem
+{
+    width: auto;
+    height: 110px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(149, 149, 149, 0.25);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-right: 125px;
+}
+.ask-quew>.ask-quew-elem>p
+{
+    float: left;
+    margin-top: 45px;
+    margin-left: 45px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 130%;
+}
+.ask-quew>.ask-quew-elem>div
+{
+    float: right;
+    font-size: 60px;
+    margin: 20px 30px 0 0;
+}
+.image
+{
+    width: 868px;
+    height: 447px;
+    flex-shrink: 0;
+}
+.finish-position
+{
+    position: relative;
+}
+.image-finish
+{
+    width: 800px;
+    height: 680.39px;
+    float: right; 
+    /* position: absolute; */
+    left: 700px;
+    bottom: -450px;
+}
+.form-discription
+{
+    float: left;
+}
+.s 
+{
+    margin-left: 60px;
+}
+.s h2
+{
+    margin-bottom: 50px;
+}
+.form-discription h2
+{
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 62px;
+
+}
+.form-discription p
+{
+    width: 560px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    
+}
+.form-discription form
+{
+    position: relative;
+    top: 70px;
+    left: 55px;
+}
+.form-discription form>p
+{
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 130%;
+    color: #5B5B5B;  
+}
+.form-discription form>p>span
+{
+    color: blue;
+}
+.form-discription form>input[type="email"]
+{
+    width: 600px;
+    height: 70px;
+    background: #F3F3F3;
+    border-radius: 40px;
+    border: none;
+    padding-left: 40px;
+    font-weight: 500;
+    font-size: 25px;
+}
+.form-discription form>button
+{
+    position: absolute;
+    width: 230px;
+    height: 70px;
+    left: 530px;
+    background: #8B7169;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+}
+footer
+{
+    
+}
